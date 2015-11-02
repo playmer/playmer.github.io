@@ -1,5 +1,6 @@
 ---
 layout: post
+type: video
 title: Title of Game
 headline: Project
 modified: 2013-09-01
