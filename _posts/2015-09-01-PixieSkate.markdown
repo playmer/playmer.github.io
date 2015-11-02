@@ -9,7 +9,6 @@ tags: [Games, projects]
 comments: false
 ---
 
-##Pixie Skate:
 Team Skate is working on Pixie Skate. We're still working on prototyping and moving those prototypes into our engine so there aren't any videos yet. The general idea is to capture some
 
 My responsibilities on the project were as such:
