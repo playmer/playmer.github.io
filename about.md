@@ -14,11 +14,17 @@ Team Skate is working on Pixie Skate. We're still working on prototyping and mov
 
 My responsibilities on the project were as such:
 - Maintaining and extending our build system.  
+
 - Maintaining the core engine.
+
 - Creating and maintaining WWise integration.
+
 - Maintaining the component/composition system.
+
 - Creating and maintaining the input systems.
+
 - Binding our engine to Zilch, a scripting language we use for some game play code.  
+
 - Utilitizing the reflection system provided by Zilch to automatically serialize/deserialize both our Zilch and C++ components.
 
 Tools and Languages used in these tasks:
