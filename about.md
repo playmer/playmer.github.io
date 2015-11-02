@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My name is Joshua T. Fisher
+title: about
 date: '2015-01-16 11:23:25'
 permalink: /about/
 ---
