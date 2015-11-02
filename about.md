@@ -1,8 +1,7 @@
 ---
 layout: post
-title: about
-description: Why you should be using a prebuild system for your C or C++ project.
-headline: I am Joshua T. Fisher
+title: I am Joshua T. Fisher
+headline: About
 modified: 2015-01-16
 date: '2015-01-16 06:55:21'
 permalink: /about/
