@@ -5,15 +5,33 @@ date: '2015-01-16 11:23:25'
 permalink: /about/
 ---
 
-I'm currently a student at DigiPen Institute of Technology and working on a neat little game called Ripple with The Adjective Noun. I'm really into the build process of C and C++ and want to learn more about it. I'm also interested interested in memory management and related topics.
+I'm currently a student at DigiPen Institute of Technology and working on a neat little game with a working title of Pixie Skate with Team Salt. I'm really into the build process of C and C++ and want to learn more about it. I'm also interested interested in memory management and related topics.
 
 #Projects:
 
+##Pixie Skate:
+Team Skate is working on Pixie Skate. We're still working on prototyping and moving those prototypes into our engine so there aren't any videos yet. The general idea is to capture some
+
+My responsibilities on the project were as such:
+- Maintaining and extending our build system.  
+- Maintaining the core engine.
+- Creating and maintaining WWise integration.
+- Maintaining the component/composition system.
+- Creating and maintaining the input systems.
+- Binding our engine to Zilch, a scripting language we use for some game play code.  
+- Utilitizing the reflection system provided by Zilch to automatically serialize/deserialize both our Zilch and C++ components.
+
+Tools and Languages used in these tasks:
+- C++  
+- CMake Script  
+- Zilch  
+- Python  
+
 ##Ripple:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gUoXGoufYhE" frameborder="0" allowfullscreen></iframe>
-The Adjective Noun is in the process of creating Ripple, a "Poetic Experience" game. It's currently still in an pre-alpha state, so no videos yet. But you can contact me for a build of the game at j.fisher@digipen.edu
+The Adjective Noun completed Ripple during June of 2015, a "Poetic Experience" game.
 
-My responsibilities on the project are as such:
+My responsibilities on the project were as such:
 - Maintaining and extending our build system.  
 - Creating and maintaining the "core" systems that allow our other programmers to develop derivative systems.  
 - Maintaining our Component system.  
@@ -28,7 +46,7 @@ Tools and Languages used in these tasks:
 
 ##Soular Eclipse:
 <iframe width="560" height="315" src="//www.youtube.com/embed/A-eomzCX4ic" frameborder="0" allowfullscreen></iframe>
-Soular Eclipse was my second game at DigiPen this time written in C, and I took a more backseat role on this team after a hellish first semester. I primarily managed the teams premake build system and built the game object and memory managers.
+Soular Eclipse was my second game at DigiPen, this time written in C, and I took a more backseat role on this team after a hellish first semester. I primarily managed the teams premake build system and built the game object and memory managers.
 
 The memory manager was a basic fixed-size free-list page-based memory manager. Unfortunately I never got it quite right, and the game shipped with quite a bug in it. It was still usable, but a huge portion of it's functionality was unaccessable due to some pointer math errors I couldn't root out. Perhaps we'll explore the fixing of this manager in the future?
 
