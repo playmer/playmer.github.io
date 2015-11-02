@@ -41,9 +41,9 @@ Function* BoundType::FindFunction(StringParam name, const Array<Type*>& paramete
 
 Heavily truncated, but essentially this function looks for a function on a BoundType, typically some Zilch class you've compiled, based on name, an array of parameter types, and return type. The problem lies in the fact that at the time, this code never actually looked for returnType. But we never got an unused parameter warning because the returnType was being used, in the recursive call into this function!
 
-Wow, okay, well that's an interesting problem to run into. Took me an hour or two to find, and the guy who eventually became my boss and I had a good laugh. His tests were actually relying on this bug, so that required some fixing on his part.
+Wow, okay, well that's an interesting problem to run into. Took me an hour or two to find, and [the guy who eventually became my boss](http://motleycoder.com/) and I had a good laugh. His tests were actually relying on this bug, so that required some fixing on his part.
 
-But then I gave this some more thought, and I wondered why this wasn't tracked by MSVC. So I went and tested it on the pre-release VC 2015 compiler. Turned out it still didn't work. So I messaged STL on reddit, and he suggested I file a Connect bug. [So I did.](https://connect.microsoft.com/VisualStudio/feedback/details/1189216)
+But then I gave this some more thought, and I wondered why this wasn't tracked by MSVC. So I went and tested it on the pre-release VC 2015 compiler. Turned out it still didn't work. So I messaged [STL](http://nuwen.net/stl.html) on reddit, and he suggested I file a Connect bug. [So I did.](https://connect.microsoft.com/VisualStudio/feedback/details/1189216)
 
 But then I decided to make a test case for any given compiler and see if any of the compilers I would typically consider using solved this, and it turns out they don't.
 
