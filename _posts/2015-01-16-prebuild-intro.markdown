@@ -7,7 +7,7 @@ modified: 2015-05-16
 date: '2015-01-16 06:55:21'
 category: prebuild
 tags: [C, C++, Cmake, Premake, Prebuild]
-comments: true
+comments: false
 ---
 
 This is the first in a series of articles I plan to write about the build process in software development. I have friends who've taught me more about it than I care to admit, and have written much better articles about it. However I can't write about the systems I've used and learned about without writing a bit on why you should think about using them.
