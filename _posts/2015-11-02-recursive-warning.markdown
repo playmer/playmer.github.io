@@ -14,6 +14,8 @@ So before I started interning with the fine folks of DigiPen R&D in the Summer o
 
 I didn't get particularly far, but I got far enough to realize that the code internal to Zilch that finds member functions was broken. 
 
+Here's a snippet from the Zilch source code that was causing my problem.
+
 {% highlight c++ %}
 Function* BoundType::FindFunction(StringParam name, const Array<Type*>& parameters, Type* returnType) const
 {
