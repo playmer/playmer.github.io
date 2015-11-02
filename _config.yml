@@ -1,6 +1,6 @@
 title:            Null Terminated Strings
 description:      "A blog about C++, Prebuild and Build Systems, and the miasma experienced when they intersect."
-logo:             profile.png
+logo:             profile.jpg
 disqus_shortname: Joshua_T_Fisher
 # Assign a default image for your site's header and footer
 default_bg:       banner.jpg
@@ -23,7 +23,7 @@ url:       		  "http://playmer.github.io"
 # Owner/author information
 owner:
   name:           Joshua T. Fisher
-  avatar:         profile.jpg
+  avatar:         profile_full.jpg
   email:          j.fisher@digipen.edu
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Joshua T. Fisher is a Computer Science student at DigiPen Institute of Technology in Redmond, WA. He&#39;s an avid user of C++, and has experience working on build systems and continuous integration to keep his developers productive.
