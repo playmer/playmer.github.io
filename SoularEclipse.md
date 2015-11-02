@@ -1,6 +1,5 @@
 ---
 layout: post
-type:  video
 title: Soular Eclipse
 headline: Project
 modified: 2015-11-2
