@@ -2,7 +2,7 @@
 layout: post
 type:  video
 title: Title of Game
-headline: Title of Game
+headline: Project
 modified: 2015-11-2
 date: '2015-11-2 06:55:21'
 permalink: /TitleOfGame/

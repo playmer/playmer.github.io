@@ -2,9 +2,9 @@
 layout: post
 type:  video
 title: Soular Eclipse
-headline: About
-modified: 2015-01-16
-date: '2015-01-16 06:55:21'
+headline: Project
+modified: 2015-11-2
+date: '2015-11-2 06:55:21'
 permalink: /SoularEclipse/
 category: projects
 tags: []
