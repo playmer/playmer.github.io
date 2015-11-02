@@ -61,8 +61,8 @@ int main()
   const char *notUsedLocal = "Not used";
 
   cout << "Test: "
-    << Recursive(1, notUsedLocal)
-    << endl;
+       << Recursive(1, notUsedLocal)
+       << endl;
   return 0;
 }
 
@@ -75,7 +75,7 @@ int Recursive(int num, const char *notUsed)
 }
 {% endhighlight %}
 
-And the flags I used to compile on g++ and clang:
+[And the absurd amount of flags I used to compile on g++ and clang](http://stackoverflow.com/questions/5088460/flags-to-enable-thorough-and-verbose-g-warnings):
 
 
 {% highlight bash %}
