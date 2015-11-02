@@ -14,7 +14,7 @@ So before I started interning with the fine folks of DigiPen R&D in the Summer o
 
 I didn't get particularly far, but I got far enough to realize that the code internal to Zilch that finds member functions was broken. 
 
-```c++
+{% highlight c++ %}
 Function* BoundType::FindFunction(StringParam name, const Array<Type*>& parameters, Type* returnType) const
 {
   const FunctionMultiMap* functions = /* It gets set somehow */;
@@ -37,7 +37,7 @@ Function* BoundType::FindFunction(StringParam name, const Array<Type*>& paramete
 
   return nullptr;
 }
-```
+{% endhighlight %}
 
 Heavily truncated, but essentially this function looks for a function on a BoundType, typically some Zilch class you've compiled, based on name, an array of parameter types, and return type. The problem lies in the fact that at the time, this code never actually looked for returnType. But we never got an unused parameter warning because the returnType was being used, in the recursive call into this function!
 
@@ -49,7 +49,7 @@ But then I decided to make a test case for any given compiler and see if any of 
 
 Here's the test code: 
 
-```c++
+{% highlight c++ %}
 #include <iostream>
 using namespace std;
 
@@ -73,18 +73,19 @@ int Recursive(int num, const char *notUsed)
   else
     return Recursive(++num, notUsed);
 }
-```
+{% endhighlight %}
 
 And the flags I used to compile on g++ and clang:
 
 
-```
+{% highlight bash %}
 g++ -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisabled-optimization -Wformat=2 -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-include-dirs -Wnoexcept -Wold-style-cast -Woverloaded-virtual -Wredundant-decls -Wshadow -Wsign-conversion -Wsign-promo -Wstrict-null-sentinel -Wstrict-overflow=5 -Wswitch-default -Wundef -Werror -Wno-unused source.cpp -o gccOut.exe
 
 
 clang++ -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisabled-optimization -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wold-style-cast -Woverloaded-virtual -Wredundant-decls -Wshadow -Wsign-conversion -Wsign-promo -Wstrict-overflow=5 -Wswitch-default -Wundef -Werror -Wno-unused source.cpp -o clangOut.exe
-```
+{% endhighlight %}
 
 So if you're interested in getting this fixed for the compilers you might use, let people know, and contact them through these bug reports (Will update with more when I can test on the bleeding edge versions of clang and g++):
 
 [MSVC Connect Bug](https://connect.microsoft.com/VisualStudio/feedback/details/1189216)
+
