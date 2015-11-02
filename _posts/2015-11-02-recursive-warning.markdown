@@ -34,7 +34,8 @@ Function* BoundType::FindFunction(StringParam name, const Array<Type*>& paramete
   else
   {
     // Check our base type for this function.
-    return this->BaseType->FindFunction(name, parameters, returnType, options);
+    // No other use of returnType exists in the body of this function.
+    return this->BaseType->FindFunction(name, parameters, returnType);
   }
 
   return nullptr;
