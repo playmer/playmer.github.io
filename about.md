@@ -16,16 +16,16 @@ I'm currently a student at DigiPen Institute of Technology and working on a neat
 
 #Projects:
 
-##[Pixie Skate](/PixieSkate/):
+##[Pixie Skate](/projects/PixieSkate/):
 Pixie Skate is game based on skateboarding and the flow of motion. Players control a ball of light that executes combos of "tricks", causing bursts of light and sound.
 
-##[Ripple](/Ripple/):
+##[Ripple](/projects/Ripple/):
 2D, top-down, singleplayer, water-physics based game in a relaxing but engaging setting.
 
-##[Soular Eclipse](/SoularEclipse/):
+##[Soular Eclipse](/projects/SoularEclipse/):
 Soular Eclipse is a 2D puzzle game where the player controls the sun to cast shadows to aid the traversal of an NPC
 
-##[Title_of\_Game](/TitleOfGame/):
+##[Title_of\_Game](/projects/TitleOfGame/):
 [Title_of\_Game] was the first game I worked on at DigiPen. We were using Zero Engine, which is an engine built by the folks in R&D and can be described as essentially an in-house Unity. We chose to use Python, as Zilch wasn't well documented yet, and none of the upperclassmen had really used it.
 
 ##[delayio](https://github.com/playmer/delayio):
