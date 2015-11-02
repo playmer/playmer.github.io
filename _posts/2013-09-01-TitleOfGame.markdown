@@ -2,11 +2,10 @@
 layout: post
 title: Title of Game
 headline: Project
-modified: 2015-11-2
-date: '2015-11-2 06:55:21'
-permalink: /TitleOfGame/
+modified: 2013-09-01
+date: '2013-09-01 06:55:21'
 category: projects
-tags: []
+tags: [python, Games, projects]
 comments: false
 ---
 

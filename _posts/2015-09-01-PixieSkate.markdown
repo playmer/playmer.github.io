@@ -2,11 +2,10 @@
 layout: post
 title: Pixie Skate
 headline: Project
-modified: 2015-11-2
-date: '2015-11-2 06:55:21'
-permalink: /PixieSkate/
+modified: 2015-09-1
+date: '2015-09-1 06:55:21'
 category: projects
-tags: []
+tags: [Games, projects]
 comments: false
 ---
 

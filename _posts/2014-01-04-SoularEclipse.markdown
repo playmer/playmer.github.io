@@ -2,11 +2,10 @@
 layout: post
 title: Soular Eclipse
 headline: Project
-modified: 2015-11-2
-date: '2015-11-2 06:55:21'
-permalink: /SoularEclipse/
+modified: 2014-01-04
+date: '2014-01-04 06:55:21'
 category: projects
-tags: []
+tags: [C, Games, projects]
 comments: false
 ---
 
