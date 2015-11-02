@@ -1,11 +1,12 @@
 ---
 layout: post
-title: I am Joshua T. Fisher
+type:  video
+title: Soular Eclipse
 headline: About
 modified: 2015-01-16
 date: '2015-01-16 06:55:21'
 permalink: /SoularEclipse/
-category: personal
+category: projects
 tags: []
 comments: false
 ---

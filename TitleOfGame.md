@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Project: Title of Game
+type:  video
+title: Title of Game
 headline: Title of Game
-modified: 2015-01-16
-date: '2015-01-16 06:55:21'
+modified: 2015-11-2
+date: '2015-11-2 06:55:21'
 permalink: /TitleOfGame/
 category: projects
 tags: []

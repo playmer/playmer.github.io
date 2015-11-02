@@ -1,10 +1,10 @@
 ---
 layout: post
 type:  video
-title: I am Joshua T. Fisher
+title: Ripple
 headline: About
-modified: 2015-01-16
-date: '2015-01-16 06:55:21'
+modified: 2015-11-2
+date: '2015-11-2 06:55:21'
 permalink: /Ripple/
 category: projects
 tags: []
