@@ -1,7 +1,13 @@
 ---
 layout: post
-title: An Introduction to Prebuild Systems (As they pertain to C & C++)
+title: "An Introduction to Prebuild Systems (As they pertain to C & C++)"
+description: Why you should be using a prebuild system for your C or C++ project.
+headline: "An Introduction to Prebuild Systems (As they pertain to C & C++)"
+modified: 2015-05-16
 date: '2015-01-16 06:55:21'
+category: personal
+tags: [C, C++, Cmake, Premake, Prebuild]
+comments: true
 ---
 
 This is the first in a series of articles I plan to write about the build process in software development. I have friends who've taught me more about it than I care to admit, and have written much better articles about it. However I can't write about the systems I've used and learned about without writing a bit on why you should think about using them.

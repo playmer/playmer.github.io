@@ -1,8 +1,14 @@
 ---
 layout: post
 title: about
-date: '2015-01-16 11:23:25'
+description: Why you should be using a prebuild system for your C or C++ project.
+headline: I am Joshua T. Fisher
+modified: 2015-01-16
+date: '2015-01-16 06:55:21'
 permalink: /about/
+category: personal
+tags: []
+comments: false
 ---
 
 I'm currently a student at DigiPen Institute of Technology and working on a neat little game with a working title of Pixie Skate with Team Salt. I'm really into the build process of C and C++ and want to learn more about it. I'm also interested interested in memory management and related topics.
