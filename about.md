@@ -13,6 +13,7 @@ I'm currently a student at DigiPen Institute of Technology and working on a neat
 Team Skate is working on Pixie Skate. We're still working on prototyping and moving those prototypes into our engine so there aren't any videos yet. The general idea is to capture some
 
 My responsibilities on the project were as such:
+
 - Maintaining and extending our build system.  
 
 - Maintaining the core engine.
@@ -28,9 +29,13 @@ My responsibilities on the project were as such:
 - Utilitizing the reflection system provided by Zilch to automatically serialize/deserialize both our Zilch and C++ components.
 
 Tools and Languages used in these tasks:
+
 - C++  
+
 - CMake Script  
+
 - Zilch  
+
 - Python  
 
 ##Ripple:
@@ -38,16 +43,25 @@ Tools and Languages used in these tasks:
 The Adjective Noun completed Ripple during June of 2015, a "Poetic Experience" game.
 
 My responsibilities on the project were as such:
+
 - Maintaining and extending our build system.  
+
 - Creating and maintaining the "core" systems that allow our other programmers to develop derivative systems.  
+
 - Maintaining our Component system.  
+
 - Binding our engine to Zilch, a scripting language we use for some game play code.  
+
 - Creating gameplay components when needed.  
 
 Tools and Languages used in these tasks:
+
 - C++  
+
 - CMake Script  
+
 - Python  
+
 - Zilch  
 
 ##Soular Eclipse:
