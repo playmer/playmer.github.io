@@ -17,6 +17,8 @@ The Adjective Noun completed Ripple during June of 2015, a "Poetic Experience" g
 
 My responsibilities on the project were as such:
 
+- Tech Director and Build Master
+
 - Maintaining and extending our build system.  
 
 - Creating and maintaining the "core" systems that allow our other programmers to develop derivative systems.  

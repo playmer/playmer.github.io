@@ -19,6 +19,8 @@ Team Skate is working on Pixie Skate. We're still working on prototyping and mov
 
 My responsibilities on the project were as such:
 
+- Tech Director and Build Master
+
 - Maintaining and extending our build system.  
 
 - Maintaining the core engine.
@@ -32,6 +34,8 @@ My responsibilities on the project were as such:
 - Binding our engine to Zilch, a scripting language we use for some game play code.  
 
 - Utilitizing the reflection system provided by Zilch to automatically serialize/deserialize both our Zilch and C++ components.
+
+- Working with our Editor programmer to create a quality inteface for designers to develop our game with. We're using Qt for this.
 
 Tools and Languages used in these tasks:
 
