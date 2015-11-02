@@ -1,8 +1,4 @@
 ---
-layout: page
-title: About
-permalink: /about/
-------
 layout: post
 title: My name is Joshua T. Fisher
 date: '2015-01-16 11:23:25'
@@ -47,14 +43,3 @@ My primary contributions were the menus and camera. I'm particularly proud of th
 delayio sprung out of a friend not being sure how to "create a console effect using print functions for the narrative portions of my text based adventure". After chatting a bit, I found that delaying output in C like how Role-Playing Games do is an interesting little bit of work. 
 
 So after implementing that I decided to implement a function to process strings so that it wouldn't go past some defined line size, and would prevent word splits. (I should probably go back and make sure this is safe.)
-
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
