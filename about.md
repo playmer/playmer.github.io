@@ -12,6 +12,8 @@ comments: false
 
 I'm currently a student at DigiPen Institute of Technology and working on a neat little game with a working title of Pixie Skate with Team Salt. I'm really into the build process of C and C++ and want to learn more about it. I'm also interested interested in memory management and related topics.
 
+[My resume can be found here.](/assets/files/Resume.pdf)
+
 #Projects:
 
 ##[Pixie Skate](/PixieSkate/):
