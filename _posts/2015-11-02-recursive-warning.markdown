@@ -78,7 +78,7 @@ int Recursive(int num, const char *notUsed)
 }
 {% endhighlight %}
 
-[And the absurd amount of flags I used to compile on g++ and clang](http://stackoverflow.com/questions/5088460/flags-to-enable-thorough-and-verbose-g-warnings):
+And the flags I used to compile on g++ and clang:
 
 
 {% highlight bash %}
