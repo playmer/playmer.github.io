@@ -78,7 +78,7 @@ int Recursive(int num, const char *notUsed)
 }
 {% endhighlight %}
 
-And the flags I used to compile on g++ and clang:
+And the flags I used to compile on g++ (5.2.0), clang (3.7) and Borland (Embarcadero) (6.50):
 
 
 {% highlight bash %}
@@ -86,9 +86,13 @@ g++ -Wunused-parameter source.cpp -o gccOut.exe
 
 
 clang++ -Wunused-parameter source.cpp -o clangOut.exe
+
+bcc32 -w source.cpp
 {% endhighlight %}
 
-So if you're interested in getting this fixed for the compilers you might use, let people know, and contact them through these bug reports (Will update with more when I can test on the bleeding edge versions of g++):
+None of them reported it.
+
+So if you're interested in getting this fixed for the compilers you might use, let people know, and contact them through these bug reports:
 
 Bug Reports:
 
