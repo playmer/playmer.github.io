@@ -91,6 +91,10 @@ clang++ -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wd
 So if you're interested in getting this fixed for the compilers you might use, let people know, and contact them through these bug reports (Will update with more when I can test on the bleeding edge versions of g++):
 
 Bug Reports:
+
 [MSVC++](https://connect.microsoft.com/VisualStudio/feedback/details/1189216)
+
 [clang](https://llvm.org/bugs/show_bug.cgi?id=25425)
+
+[g++](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=68230)
 
