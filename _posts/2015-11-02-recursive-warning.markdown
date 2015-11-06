@@ -88,7 +88,9 @@ g++ -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisab
 clang++ -pedantic -Wall -Wextra -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisabled-optimization -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-include-dirs -Wold-style-cast -Woverloaded-virtual -Wredundant-decls -Wshadow -Wsign-conversion -Wsign-promo -Wstrict-overflow=5 -Wswitch-default -Wundef -Werror -Wno-unused source.cpp -o clangOut.exe
 {% endhighlight %}
 
-So if you're interested in getting this fixed for the compilers you might use, let people know, and contact them through these bug reports (Will update with more when I can test on the bleeding edge versions of clang and g++):
+So if you're interested in getting this fixed for the compilers you might use, let people know, and contact them through these bug reports (Will update with more when I can test on the bleeding edge versions of g++):
 
-[MSVC Connect Bug](https://connect.microsoft.com/VisualStudio/feedback/details/1189216)
+Bug Reports:
+[MSVC++](https://connect.microsoft.com/VisualStudio/feedback/details/1189216)
+[clang](https://llvm.org/bugs/show_bug.cgi?id=25425)
 
