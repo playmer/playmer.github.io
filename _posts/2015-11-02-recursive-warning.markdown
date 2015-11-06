@@ -2,7 +2,7 @@
 layout: post
 title: "Unused Arguments Aren't a Problem When Recursing Right?"
 description: You should let your compiler devs know about this.
-headline: "An Introduction to Prebuild Systems (As they pertain to C & C++)"
+headline: "Unused Arguments Aren't a Problem When Recursing Right?"
 modified: 2015-11-2
 date: '2015-11-2 06:02:21'
 category: C++
