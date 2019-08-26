@@ -1,0 +1,6 @@
+[submodule "themes/hugomodo"]
+	path = themes/hugomodo
+	url = https://github.com/hugomodo/hugomodo
+[submodule "themes/hugomodo-best-motherfucking-website"]
+	path = themes/hugomodo-best-motherfucking-website
+	url = https://github.com/hugomodo/hugomodo-best-motherfucking-website
